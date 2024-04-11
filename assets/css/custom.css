@@ -1,0 +1,54 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+
+body {
+    font-size: 1rem;
+    line-height: 1.77;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    width: 1px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Inter", sans-serif;
+ 
+}
+
+.bg-img {
+	background-image: url(/assets/images/icon.png);
+    background-repeat: no-repeat;
+    
+}
+
+select {
+	font-size: 24px;
+	padding: 8px 36px 8px 16px;
+	cursor: pointer;
+	color: #414141;
+
+	/* спрятать стрелку дефолтную	 */
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+
+	/* картинку на фон */
+	
+	
+	/* запрешаем повторение фона */
+	background-repeat: no-repeat;
+	/* размер фона */
+	background-size: 16px;
+	/* позиционируем фон 95% по X и 50% по Y */
+	background-position: 95% 50%;
+}
